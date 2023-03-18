@@ -162,7 +162,7 @@ body {
   margin-top: 7%;
 }
 
-.about .row .content p{
+.about .row .content p {
   text-align: justify;
   margin-bottom: 1rem;
   font-size: 1.7rem;
@@ -190,7 +190,7 @@ body {
   justify-content: center;
 }
 
-.layanan p{
+.layanan p {
   max-width: none;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -206,7 +206,7 @@ body {
   width: 70%;
 }
 .layanan .row .layanan-card .layanan-card-tittle {
-  margin-top: 1rem ;
+  margin-top: 1rem;
   font-size: 1.5rem;
 }
 
@@ -264,15 +264,14 @@ footer {
   bottom: 0;
 }
 
-@media (max-height:800px) {
+@media (max-height: 800px) {
   footer {
-      position: static;
+    position:relative;
   }
   header {
-      padding-top: 40px;
+    padding-top: 40px;
   }
 }
-
 
 .footer-distributed {
   background-color: #2d2a30;
@@ -284,7 +283,9 @@ footer {
   margin-top: 80px;
 }
 
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
   display: inline-block;
   vertical-align: top;
 }
@@ -353,11 +354,9 @@ footer {
   margin: 0;
 }
 
-
 .footer-distributed .footer-center p a {
   color: #ff0000;
   text-decoration: none;
-  ;
 }
 
 /* Footer Right */
@@ -408,7 +407,6 @@ footer {
 .footer-links a:hover {
   color: #ff0000;
 }
-
 
 /* media Queries */
 /* laptop */
@@ -481,7 +479,7 @@ footer {
     font-size: 1rem;
   }
 
-  .layanan .row  {
+  .layanan .row {
     font-size: 1rem;
   }
 
@@ -501,19 +499,19 @@ footer {
     padding-top: 0;
   }
 
-  .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
     object-fit: cover;
     display: block;
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
-}
-.footer-distributed .footer-center i {
+  }
+  .footer-distributed .footer-center i {
     margin-left: 0;
+  }
 }
-}
-     
-    
 
 /* handphone */
 @media (max-width: 1366px) {
